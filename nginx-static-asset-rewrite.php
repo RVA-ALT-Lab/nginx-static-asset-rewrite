@@ -4,7 +4,7 @@
  * Author: Jeff Everhart
  * Author URI: http://altlab.vcu.edu/team-members/jeff-everhart/
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Description: This plugin grabs the online course feed from the VP for Instruction data feed. This exist because we don't understand CORS.
+ * Description: This is a plugin for multisite that rewrites static JS/CSS urls to the root of the MU installation. This should help with caching of static assets using NGINX or other web server-based caching strategies.
  *
 */
 if (is_multisite()){
